@@ -1,60 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple home page</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Apple home page</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-  <!-- Local CSS -->
-  <link rel="stylesheet" href="css/styles.css" />
-</head>
-
-<body>
-
-  <!-- MacBook Pro and iPad section -->
-  <section class="card_watch macbook-airpads">
-    <!-- macbook pro -->
-    <div class="watch-wrapper Macbook-pro">
-      <div>
-        <p class="type">16-inch model</p>
-        <h1 class="device">MacBook Pro</h1>
-        <p class="description">The best for the brightest.</p>
-        <div class="learnmore">
+  <body>
+    <header class="header-wrapper">
+      <div class="internal-wrapper">
+        <div class="header-links-wrapper">
           <ul>
-            <li><a href="#">Learn more</a></li>
-            <li><a href="#">Buy</a></li>
+            <li class="logo-link">
+              <a href="/"><img src="images/icons/logo.png" /></a>
+            </li>
+            <li><a href="/mac/">Mac</a></li>
+            <li><a href="#">iphone</a></li>
+            <li><a href="#">ipad</a></li>
+            <li><a href="#">watch</a></li>
+            <li><a href="#">tv</a></li>
+            <li><a href="#">Music</a></li>
+            <li><a href="#">Support</a></li>
+            <li class="search-link">
+              <a href="/search/"><img src="images/icons/search-icon.png" /></a>
+            </li>
+            <li class="cart-link">
+              <a href="/cart/"><img src="images/icons/cart.png" /></a>
+            </li>
           </ul>
         </div>
       </div>
-    </div>
-
-    <!-- ipad -->
-    <div class="watch-wrapper ipad">
-      <div>
-        <img src="images/icons/new-ipad-logo.png" alt="iPad Logo" />
-      </div>
-      <div>
-        <p class="description">Like a computer. Unlike any computer.</p>
-      </div>
-      <div class="learnmore">
-        <ul>
-          <li><a href="#">Learn more</a></li>
-          <li><a href="#">Buy</a></li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-</body>
-
+    </header>
+  </body>
 </html>

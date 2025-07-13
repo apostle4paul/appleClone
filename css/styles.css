@@ -12,106 +12,52 @@ body {
   font-size: 20px;
   color: #1d1d1f;
 }
-
-/* Learn More Button Styles */
-.learnmore {
-  padding-block: 10px;
+/* Header section */
+/* Header Style */
+.header-wrapper {
+  background: black;
+  color: #fff;
+  font-weight: 200;
+  font-size: 0.75em;
 }
-
-.learnmore ul {
+.header-wrapper ul {
   display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-
-.learnmore li a {
-  padding: 10px;
-  color: #06c;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 600;
-  border: 1px solid transparent;
-  border-radius: 6px;
-  transition: color 0.3s, border-color 0.3s;
-}
-
-.learnmore li a:hover {
-  color: black;
-  border-color: black;
-}
-
-.learnmore ul li a::after {
-  font-family: "FontAwesome";
-  font-weight: 900;
-  content: "\f105";
-  padding-left: 10px;
-}
-
-/* Layout for the two-column section */
-.card_watch {
-  display: flex;
+  -webkit-box-pack: justify;
   justify-content: space-between;
-  margin-top: 1%;
-  gap: 2%;
 }
-
-.watch-wrapper {
-  text-align: center;
-  width: 48.5%;
-  padding-top: 54px;
-  height: 600px;
+.internal-wrapper {
+  width: 980px;
+  padding: 0 10px;
+  margin: 0 auto;
 }
-
-/* MacBook Pro section */
-.Macbook-pro {
-  background-image: url("../images/home/macbook-pro.jpg");
-  background-color: #fafafa;
-  background-size: initial;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  color: #1d1d1f;
+.header-wrapper .header-links-wrapper ul li a {
+  text-decoration: none;
+  color: #fff;
 }
-
-.Macbook-pro .type {
-  font-size: 14px;
-  color: #1d1d1f;
-  margin-bottom: 8px;
+.header-wrapper ul {
+  list-style: none;
 }
-
-.Macbook-pro .device {
-  font-size: 46px;
-  font-weight: 600;
-  color: #1d1d1f;
-  margin-bottom: 10px;
+.header-wrapper .header-links-wrapper ul li {
+  display: inline-block;
+  padding: 14px 0 8px;
+  height: 25px;
+  opacity: 0.8;
 }
-
-.Macbook-pro .description {
-  font-size: 16px;
-  padding-top: 10px;
-  color: #1d1d1f;
-  margin-bottom: 20px;
+.header-wrapper .header-links-wrapper ul li:hover {
+  opacity: 1;
 }
-
-/* iPad section */
-.ipad {
-  background-image: url("../images/home/new-ipad.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #1d1d1f;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 40px 20px 20px;
+.logo-link,
+.search-link,
+.cart-link {
+  width: 18px;
+  display: block;
 }
-
-.ipad img {
-  max-width: 160px;
-  margin-bottom: 25px;
+.header-wrapper .header-links-wrapper ul li.logo-link {
+  padding: 12px 0 10px;
 }
-
-.ipad .description {
-  font-size: 16px;
-  padding-bottom: 20px;
+.header-wrapper .header-links-wrapper ul li.search-link {
+  padding: 14px 0 8px;
+}
+.header-wrapper .header-links-wrapper ul li.cart-link {
+  padding: 12px 0 10px;
 }

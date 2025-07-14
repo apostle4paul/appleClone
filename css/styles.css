@@ -21,63 +21,61 @@ body {
   font-size: 20px;
   color: #1d1d1f;
 }
-/*Fivth Highlight Section */
-.fifth-heghlight-wrapper {
-	display: flex;
-  -webkit-box-pack: justify;
+/* Second section by Mebrahten */
+.iphone11_pro_wrapper,
+.iphone11_description {
+  text-align: center;
+}
+.device_name {
+  font-size: 56px;
+  font-weight: 600;
+}
+
+.iphone11_pro_wrapper {
+  background-image: url(../images/home/iphone11-pro-bg.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 65px 20px;
+}
+.pro_description {
+  color: #fff;
+}
+.pro_text {
+  font-size: 1.2em;
+  font-weight: 200;
+  padding-block: 15px;
+}
+
+/* third section by Mebrahten */
+
+.iphone11_wrapper {
+  background-image: url(../images/home/iphone11-bg.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 65px 20px;
+}
+.learnmore ul {
+  padding-bottom: 50px;
+}
+
+/* Layout for the two-column section */
+.card_watch {
+  display: flex;
   justify-content: space-between;
-  background: #fff;
-}
-.fifth-heghlight-wrapper .left-side-wrapper {
-	background-image:  url("../images/home/apple-tv-background.jpg"); 
-}
-.fifth-heghlight-wrapper .right-side-wrapper {
-	background-image:  url("../images/home/air-pods.jpg"); 
-	color: #fff; 
-	background-size: initial;
-	background-color: #000;
-	background-position: bottom;
-}
-.logo-wrapper {
-	font-size: 40px;
-	font-weight: bold;
-}
-.tvshow-logo-wraper {
-	padding: 180px 0 200px;
-}
-.watch-more-wrapper a {
-	text-decoration: none;
-	font-size: 0.85em;
-}
-.watch-more-wrapper a:after {
-  font-family: "FontAwesome";
-  font-weight: 900;
-  content: "\f144";
-  padding-left: 15px;
+  margin-top: 1%;
+  gap: 2%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.watch-wrapper {
+  text-align: center;
+  width: 48.5%;
+  padding-top: 54px;
+  height: 600px;
+}
 
 
 

@@ -47,6 +47,47 @@ body {
   padding-left: 10px;
 }
 
+/* Second section by Mebrahten */
+.iphone11_pro_wrapper,
+.iphone11_description {
+  text-align: center;
+}
+.device_name {
+  font-size: 56px;
+  font-weight: 600;
+}
+
+.iphone11_pro_wrapper {
+  background-image: url(../images/home/iphone11-pro-bg.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 65px 20px;
+}
+.pro_description {
+  color: #fff;
+}
+.pro_text {
+  font-size: 1.2em;
+  font-weight: 200;
+  padding-block: 15px;
+}
+
+/* third section by Mebrahten */
+
+.iphone11_wrapper {
+  background-image: url(../images/home/iphone11-bg.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 65px 20px;
+}
+.learnmore ul {
+  padding-bottom: 50px;
+}
+
 /* Layout for the two-column section */
 .card_watch {
   display: flex;
@@ -62,18 +103,18 @@ body {
   height: 600px;
 }
 /*Section 4 styling */
-.hero{
+.hero {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 580px;
 }
 .left-side {
-	background-image:  url("../images/home/watch-series-5.jpg"); 
+  background-image: url("../images/home/watch-series-5.jpg");
 }
 
-.right-side{
-  background-image:  url("../images/home/apple-card.jpg"); 
+.right-side {
+  background-image: url("../images/home/apple-card.jpg");
 }
 
 /* MacBook Pro section */

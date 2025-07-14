@@ -61,6 +61,20 @@ body {
   padding-top: 54px;
   height: 600px;
 }
+/*Section 4 styling */
+.hero{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 580px;
+}
+.left-side {
+	background-image:  url("../images/home/watch-series-5.jpg"); 
+}
+
+.right-side{
+  background-image:  url("../images/home/apple-card.jpg"); 
+}
 
 /* MacBook Pro section */
 .Macbook-pro {

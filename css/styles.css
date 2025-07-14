@@ -12,42 +12,52 @@ body {
   font-size: 20px;
   color: #1d1d1f;
 }
-/* Main Highlight */
-.main-highlight-wrapper {
-  background: #fafafa;
-  text-align: center;
-  padding: 25px 0;
+/* Header section */
+/* Header Style */
+.header-wrapper {
+  background: black;
+  color: #fff;
+  font-weight: 200;
+  font-size: 0.75em;
 }
-.links-wrapper ul {
+.header-wrapper ul {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.internal-wrapper {
+  width: 980px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.header-wrapper .header-links-wrapper ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.header-wrapper ul {
   list-style: none;
 }
-.model {
-  font-size: 0.85em;
-}
-.product-title {
-  font-weight: 700;
-  font-size: 56px;
-}
-.brief-description {
-  font-size: 2em;
-}
-.links-wrapper {
-  padding: 15px 0;
-}
-.links-wrapper ul li {
+.header-wrapper .header-links-wrapper ul li {
   display: inline-block;
-  padding-right: 20px;
+  padding: 14px 0 8px;
+  height: 25px;
+  opacity: 0.8;
 }
-.links-wrapper ul li a {
-  color: #06c;
-  text-decoration: none;
+.header-wrapper .header-links-wrapper ul li:hover {
+  opacity: 1;
 }
-.links-wrapper ul li a:hover {
-  color: #000;
+.logo-link,
+.search-link,
+.cart-link {
+  width: 18px;
+  display: block;
 }
-.links-wrapper ul li a:after {
-  font-family: "FontAwesome";
-  font-weight: 900;
-  content: "\f105";
-  padding-left: 10px;
+.header-wrapper .header-links-wrapper ul li.logo-link {
+  padding: 12px 0 10px;
+}
+.header-wrapper .header-links-wrapper ul li.search-link {
+  padding: 14px 0 8px;
+}
+.header-wrapper .header-links-wrapper ul li.cart-link {
+  padding: 12px 0 10px;
 }

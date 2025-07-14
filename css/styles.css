@@ -1,5 +1,14 @@
 /* General Reset and Font */
 * {
+	margin: 0;
+	padding: 0;
+}
+img {
+	max-width: 100%;
+}
+body {
+	font-size: 20px; 
+	font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,52 +21,65 @@ body {
   font-size: 20px;
   color: #1d1d1f;
 }
-/* Header section */
-/* Header Style */
-.header-wrapper {
-  background: black;
-  color: #fff;
-  font-weight: 200;
-  font-size: 0.75em;
-}
-.header-wrapper ul {
-  display: flex;
+/*Fivth Highlight Section */
+.fifth-heghlight-wrapper {
+	display: flex;
   -webkit-box-pack: justify;
   justify-content: space-between;
+  background: #fff;
 }
-.internal-wrapper {
-  width: 980px;
-  padding: 0 10px;
-  margin: 0 auto;
+.fifth-heghlight-wrapper .left-side-wrapper {
+	background-image:  url("../images/home/apple-tv-background.jpg"); 
 }
-.header-wrapper .header-links-wrapper ul li a {
-  text-decoration: none;
-  color: #fff;
+.fifth-heghlight-wrapper .right-side-wrapper {
+	background-image:  url("../images/home/air-pods.jpg"); 
+	color: #fff; 
+	background-size: initial;
+	background-color: #000;
+	background-position: bottom;
 }
-.header-wrapper ul {
-  list-style: none;
+.logo-wrapper {
+	font-size: 40px;
+	font-weight: bold;
 }
-.header-wrapper .header-links-wrapper ul li {
-  display: inline-block;
-  padding: 14px 0 8px;
-  height: 25px;
-  opacity: 0.8;
+.tvshow-logo-wraper {
+	padding: 180px 0 200px;
 }
-.header-wrapper .header-links-wrapper ul li:hover {
-  opacity: 1;
+.watch-more-wrapper a {
+	text-decoration: none;
+	font-size: 0.85em;
 }
-.logo-link,
-.search-link,
-.cart-link {
-  width: 18px;
-  display: block;
+.watch-more-wrapper a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 15px;
 }
-.header-wrapper .header-links-wrapper ul li.logo-link {
-  padding: 12px 0 10px;
-}
-.header-wrapper .header-links-wrapper ul li.search-link {
-  padding: 14px 0 8px;
-}
-.header-wrapper .header-links-wrapper ul li.cart-link {
-  padding: 12px 0 10px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

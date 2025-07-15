@@ -48,7 +48,7 @@ body {
 .header-wrapper .header-links-wrapper ul li {
   display: inline-block;
   padding: 14px 0 8px;
-  height: 25px;
+  height: 55px;
   opacity: 0.8;
 }
 .header-wrapper .header-links-wrapper ul li:hover {
@@ -208,6 +208,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 65px 20px;
+  color: #fff;
 }
 .pro_description {
   color: #fff;
@@ -216,6 +217,10 @@ body {
   font-size: 1.2em;
   font-weight: 200;
   padding-block: 15px;
+}
+.price-wrapper {
+  color: #86868b;
+  font-size: 0.85em;
 }
 
 /* third section by Mebrahten */
@@ -226,11 +231,22 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* text-align: center; */
   padding: 65px 20px;
 }
-.learnmore ul {
-  padding-bottom: 50px;
-}
+/* .header-wrapper .header-learnmore ul li {
+  display: inline-block;
+  padding: 14px 0 8px;
+  height: 25px;
+  opacity: 0.8;
+} */
+/* .header-wrapper ul {
+  list-style: none;
+} */
+/* .header-wrapper .header-learnmore ul li a {
+  text-decoration: none;
+  color: #fff;
+} */
 
 /* Layout for the two-column section */
 .card_watch {
